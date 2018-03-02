@@ -15,6 +15,21 @@
 		E29FBCA52043AF9A007A2170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCA42043AF9A007A2170 /* main.m */; };
 		E29FBCAF2043AF9A007A2170 /* iOSProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCAE2043AF9A007A2170 /* iOSProTests.m */; };
 		E29FBCBA2043AF9A007A2170 /* iOSProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCB92043AF9A007A2170 /* iOSProUITests.m */; };
+		E29FBCD82043B0D8007A2170 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCCB2043B0D8007A2170 /* CYLPlusButton.m */; };
+		E29FBCD92043B0D8007A2170 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCCD2043B0D8007A2170 /* CYLTabBar.m */; };
+		E29FBCDA2043B0D8007A2170 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCCF2043B0D8007A2170 /* CYLTabBarController.m */; };
+		E29FBCDB2043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCD12043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m */; };
+		E29FBCDC2043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCD32043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		E29FBCDD2043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCD52043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m */; };
+		E29FBCDE2043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCD72043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		E29FBCE1204506A1007A2170 /* MainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCE0204506A1007A2170 /* MainTabbarController.m */; };
+		E29FBCE920452ECC007A2170 /* FunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCE820452ECC007A2170 /* FunctionVC.m */; };
+		E29FBCEC20453075007A2170 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCEB20453075007A2170 /* BaseVC.m */; };
+		E29FBCEF20453083007A2170 /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCEE20453083007A2170 /* OtherVC.m */; };
+		E29FBCF220453091007A2170 /* MoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF120453091007A2170 /* MoreVC.m */; };
+		E29FBCF52045309E007A2170 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF42045309E007A2170 /* ShareVC.m */; };
+		E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF720464391007A2170 /* AddPlusBtn.m */; };
+		E29FBCFB2046805D007A2170 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,37 @@
 		E29FBCB52043AF9A007A2170 /* iOSProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29FBCB92043AF9A007A2170 /* iOSProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSProUITests.m; sourceTree = "<group>"; };
 		E29FBCBB2043AF9A007A2170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29FBCC92043B0D8007A2170 /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		E29FBCCA2043B0D8007A2170 /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		E29FBCCB2043B0D8007A2170 /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		E29FBCCC2043B0D8007A2170 /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		E29FBCCD2043B0D8007A2170 /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		E29FBCCE2043B0D8007A2170 /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		E29FBCCF2043B0D8007A2170 /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		E29FBCD02043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		E29FBCD12043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		E29FBCD22043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		E29FBCD32043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		E29FBCD42043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		E29FBCD52043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		E29FBCD62043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		E29FBCD72043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		E29FBCDF204506A1007A2170 /* MainTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarController.h; sourceTree = "<group>"; };
+		E29FBCE0204506A1007A2170 /* MainTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarController.m; sourceTree = "<group>"; };
+		E29FBCE720452ECC007A2170 /* FunctionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionVC.h; sourceTree = "<group>"; };
+		E29FBCE820452ECC007A2170 /* FunctionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionVC.m; sourceTree = "<group>"; };
+		E29FBCEA20453075007A2170 /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		E29FBCEB20453075007A2170 /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		E29FBCED20453083007A2170 /* OtherVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
+		E29FBCEE20453083007A2170 /* OtherVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
+		E29FBCF020453091007A2170 /* MoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreVC.h; sourceTree = "<group>"; };
+		E29FBCF120453091007A2170 /* MoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreVC.m; sourceTree = "<group>"; };
+		E29FBCF32045309E007A2170 /* ShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareVC.h; sourceTree = "<group>"; };
+		E29FBCF42045309E007A2170 /* ShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareVC.m; sourceTree = "<group>"; };
+		E29FBCF620464391007A2170 /* AddPlusBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddPlusBtn.h; sourceTree = "<group>"; };
+		E29FBCF720464391007A2170 /* AddPlusBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPlusBtn.m; sourceTree = "<group>"; };
+		E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		E29FBCFA2046805D007A2170 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +147,12 @@
 		E29FBC942043AF9A007A2170 /* iOSPro */ = {
 			isa = PBXGroup;
 			children = (
+				E29FBCE620452E58007A2170 /* 分享登陆 */,
+				E29FBCE420452E58007A2170 /* 更多案例 */,
+				E29FBCE520452E58007A2170 /* 功能 */,
+				E29FBCE220452E58007A2170 /* 基础 */,
+				E29FBCE320452E58007A2170 /* 其他 */,
+				E29FBCC72043B0C9007A2170 /* lib */,
 				E29FBC952043AF9A007A2170 /* AppDelegate.h */,
 				E29FBC962043AF9A007A2170 /* AppDelegate.m */,
 				E29FBC982043AF9A007A2170 /* ViewController.h */,
@@ -110,6 +162,12 @@
 				E29FBCA02043AF9A007A2170 /* LaunchScreen.storyboard */,
 				E29FBCA32043AF9A007A2170 /* Info.plist */,
 				E29FBCA42043AF9A007A2170 /* main.m */,
+				E29FBCFA2046805D007A2170 /* CYLTabBarControllerConfig.h */,
+				E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */,
+				E29FBCDF204506A1007A2170 /* MainTabbarController.h */,
+				E29FBCE0204506A1007A2170 /* MainTabbarController.m */,
+				E29FBCF620464391007A2170 /* AddPlusBtn.h */,
+				E29FBCF720464391007A2170 /* AddPlusBtn.m */,
 			);
 			path = iOSPro;
 			sourceTree = "<group>";
@@ -130,6 +188,81 @@
 				E29FBCBB2043AF9A007A2170 /* Info.plist */,
 			);
 			path = iOSProUITests;
+			sourceTree = "<group>";
+		};
+		E29FBCC72043B0C9007A2170 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCC82043B0D8007A2170 /* CYLTabBarController */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E29FBCC82043B0D8007A2170 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCC92043B0D8007A2170 /* CYLConstants.h */,
+				E29FBCCA2043B0D8007A2170 /* CYLPlusButton.h */,
+				E29FBCCB2043B0D8007A2170 /* CYLPlusButton.m */,
+				E29FBCCC2043B0D8007A2170 /* CYLTabBar.h */,
+				E29FBCCD2043B0D8007A2170 /* CYLTabBar.m */,
+				E29FBCCE2043B0D8007A2170 /* CYLTabBarController.h */,
+				E29FBCCF2043B0D8007A2170 /* CYLTabBarController.m */,
+				E29FBCD02043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.h */,
+				E29FBCD12043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m */,
+				E29FBCD22043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				E29FBCD32043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				E29FBCD42043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.h */,
+				E29FBCD52043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m */,
+				E29FBCD62043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.h */,
+				E29FBCD72043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		E29FBCE220452E58007A2170 /* 基础 */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCEA20453075007A2170 /* BaseVC.h */,
+				E29FBCEB20453075007A2170 /* BaseVC.m */,
+			);
+			path = "基础";
+			sourceTree = "<group>";
+		};
+		E29FBCE320452E58007A2170 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCED20453083007A2170 /* OtherVC.h */,
+				E29FBCEE20453083007A2170 /* OtherVC.m */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		E29FBCE420452E58007A2170 /* 更多案例 */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCF020453091007A2170 /* MoreVC.h */,
+				E29FBCF120453091007A2170 /* MoreVC.m */,
+			);
+			path = "更多案例";
+			sourceTree = "<group>";
+		};
+		E29FBCE520452E58007A2170 /* 功能 */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCE720452ECC007A2170 /* FunctionVC.h */,
+				E29FBCE820452ECC007A2170 /* FunctionVC.m */,
+			);
+			path = "功能";
+			sourceTree = "<group>";
+		};
+		E29FBCE620452E58007A2170 /* 分享登陆 */ = {
+			isa = PBXGroup;
+			children = (
+				E29FBCF32045309E007A2170 /* ShareVC.h */,
+				E29FBCF42045309E007A2170 /* ShareVC.m */,
+			);
+			path = "分享登陆";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +398,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29FBCFB2046805D007A2170 /* CYLTabBarControllerConfig.m in Sources */,
+				E29FBCF52045309E007A2170 /* ShareVC.m in Sources */,
+				E29FBCDC2043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				E29FBC9A2043AF9A007A2170 /* ViewController.m in Sources */,
 				E29FBCA52043AF9A007A2170 /* main.m in Sources */,
+				E29FBCF220453091007A2170 /* MoreVC.m in Sources */,
+				E29FBCEC20453075007A2170 /* BaseVC.m in Sources */,
+				E29FBCDA2043B0D8007A2170 /* CYLTabBarController.m in Sources */,
+				E29FBCEF20453083007A2170 /* OtherVC.m in Sources */,
+				E29FBCDE2043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				E29FBCDB2043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				E29FBCDD2043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				E29FBCD82043B0D8007A2170 /* CYLPlusButton.m in Sources */,
+				E29FBCD92043B0D8007A2170 /* CYLTabBar.m in Sources */,
+				E29FBCE1204506A1007A2170 /* MainTabbarController.m in Sources */,
+				E29FBCE920452ECC007A2170 /* FunctionVC.m in Sources */,
+				E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */,
 				E29FBC972043AF9A007A2170 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +579,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKQ4QKY2W4;
 				INFOPLIST_FILE = iOSPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.esdk.iOSPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lck.huawei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,9 +594,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKQ4QKY2W4;
 				INFOPLIST_FILE = iOSPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.esdk.iOSPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lck.huawei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

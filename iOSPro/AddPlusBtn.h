@@ -7,7 +7,8 @@
 //
 
 #import "CYLPlusButton.h"
+#import "CYLTabBarController.h"
 
-@interface AddPlusBtn : CYLPlusButton
+@interface AddPlusBtn : CYLPlusButton <CYLPlusButtonSubclassing>
 
 @end

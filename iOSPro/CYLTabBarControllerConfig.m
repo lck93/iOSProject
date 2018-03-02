@@ -8,7 +8,7 @@
 #import "CYLTabBarControllerConfig.h"
 #import <UIKit/UIKit.h>
 
-static CGFloat const CYLTabBarControllerHeight = 40.f;
+static CGFloat const CYLTabBarControllerHeight = 44.f;
 
 @interface CYLBaseNavigationController : UINavigationController
 @end
@@ -25,11 +25,11 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
 @end
 
 //View Controllers
-#import "CYLHomeViewController.h"
-#import "CYLMessageViewController.h"
-#import "CYLMineViewController.h"
-#import "CYLSameCityViewController.h"
-#import "CYLPlusButtonSubclass.h"
+#import "FunctionVC.h"
+#import "BaseVC.h"
+#import "OtherVC.h"
+#import "MoreVC.h"
+#import "AddPlusBtn.h"
 
 @interface CYLTabBarControllerConfig ()<UITabBarControllerDelegate>
 
@@ -67,52 +67,49 @@ static CGFloat const CYLTabBarControllerHeight = 40.f;
 }
 
 - (NSArray *)viewControllers {
-    CYLHomeViewController *firstViewController = [[CYLHomeViewController alloc] init];
-    UIViewController *firstNavigationController = [[CYLBaseNavigationController alloc]
-                                                   initWithRootViewController:firstViewController];
+    UINavigationController *first = [[UINavigationController alloc] initWithRootViewController:[[FunctionVC alloc] init]];
+    UINavigationController *second = [[UINavigationController alloc] initWithRootViewController:[[BaseVC alloc] init]];
+    UINavigationController *third = [[UINavigationController alloc] initWithRootViewController:[[OtherVC alloc] init]];
+    UINavigationController *firth = [[UINavigationController alloc] initWithRootViewController:[[MoreVC alloc] init]];
+    //    UINavigationController *fifth = [[UINavigationController alloc] initWithRootViewController:[[ShareVC alloc] init]];
     
-    CYLSameCityViewController *secondViewController = [[CYLSameCityViewController alloc] init];
-    UIViewController *secondNavigationController = [[CYLBaseNavigationController alloc]
-                                                    initWithRootViewController:secondViewController];
     
-    CYLMessageViewController *thirdViewController = [[CYLMessageViewController alloc] init];
-    UIViewController *thirdNavigationController = [[CYLBaseNavigationController alloc]
-                                                   initWithRootViewController:thirdViewController];
     
-    CYLMineViewController *fourthViewController = [[CYLMineViewController alloc] init];
-    UIViewController *fourthNavigationController = [[CYLBaseNavigationController alloc]
-                                                    initWithRootViewController:fourthViewController];
-    
-  
     NSArray *viewControllers = @[
-                                 firstNavigationController,
-                                 secondNavigationController,
-                                 thirdNavigationController,
-                                 fourthNavigationController
+                                 first,
+                                 second,
+                                 third,
+                                 firth
                                  ];
     return viewControllers;
 }
 
 - (NSArray *)tabBarItemsAttributesForController {
-    NSDictionary *firstTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"首页",
-                                                 CYLTabBarItemImage : @"home_normal",  /* NSString and UIImage are supported*/
-                                                 CYLTabBarItemSelectedImage : @"home_highlight", /* NSString and UIImage are supported*/
-                                                 };
     NSDictionary *secondTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"同城",
-                                                  CYLTabBarItemImage : @"mycity_normal",
-                                                  CYLTabBarItemSelectedImage : @"mycity_highlight",
+                                                  CYLTabBarItemTitle : @"基础",
+                                                  CYLTabBarItemImage : @"tabBar_essence_icon",
+                                                  CYLTabBarItemSelectedImage : @"tabBar_essence_click_icon",
                                                   };
+    
+    NSDictionary *firstTabBarItemsAttributes = @{
+                                                 CYLTabBarItemTitle : @"功能",
+                                                 CYLTabBarItemImage : @"tabBar_friendTrends_icon",
+                                                 CYLTabBarItemSelectedImage : @"tabBar_friendTrends_click_icon",
+                                                 };
     NSDictionary *thirdTabBarItemsAttributes = @{
-                                                 CYLTabBarItemTitle : @"消息",
-                                                 CYLTabBarItemImage : @"message_normal",
-                                                 CYLTabBarItemSelectedImage : @"message_highlight",
+                                                 CYLTabBarItemTitle : @"其他",
+                                                 CYLTabBarItemImage : @"tabBar_new_icon",
+                                                 CYLTabBarItemSelectedImage : @"tabBar_new_click_icon",
+                                                 };
+    NSDictionary *fifthTabBarItemsAttributes = @{
+                                                 CYLTabBarItemTitle : @"分享登录",
+                                                 CYLTabBarItemImage : @"tabBar_me_icon",
+                                                 CYLTabBarItemSelectedImage : @"tabBar_me_click_icon"
                                                  };
     NSDictionary *fourthTabBarItemsAttributes = @{
-                                                  CYLTabBarItemTitle : @"我的",
-                                                  CYLTabBarItemImage : @"account_normal",
-                                                  CYLTabBarItemSelectedImage : @"account_highlight"
+                                                  CYLTabBarItemTitle : @"更多案例",
+                                                  CYLTabBarItemImage : @"tabbar_discover",
+                                                  CYLTabBarItemSelectedImage : @"tabbar_discover_highlighted"
                                                   };
     NSArray *tabBarItemsAttributes = @[
                                        firstTabBarItemsAttributes,

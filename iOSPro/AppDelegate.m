@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabbarController.h"
+#import "AddPlusBtn.h"
+#import "CYLTabBarControllerConfig.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UITabBarControllerDelegate,CYLTabBarControllerDelegate>
 
 @end
 
@@ -17,8 +20,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    [AddPlusBtn registerPlusButton];
+    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
+    CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
+    tabBarController.delegate = self;
+    self.window.rootViewController = tabBarController;
+    
+    
+ 
+    [self.window makeKeyAndVisible];
+   
+   
+   
     return YES;
 }
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectControl:(UIControl *)control
+{
+    UIView *animate;
+    
+//    animate = [self ]
+}
+
+
+
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
