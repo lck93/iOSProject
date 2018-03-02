@@ -25,6 +25,7 @@
     CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
     CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
     tabBarController.delegate = self;
+    tabBarController.tabBarHeight = 49;
     self.window.rootViewController = tabBarController;
     
     
@@ -38,8 +39,29 @@
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectControl:(UIControl *)control
 {
     UIView *animate;
+    if ([control cyl_isTabButton]) {
+        animate = [control cyl_tabImageView];
+    }
+    if ([self cyl_tabBarController].selectedIndex%2==0) {
+        CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
+        animation.keyPath = @"transform.scale";
+        animation.values = @[@1.0,@1.3,@0.95,@1.25,@0.9,@1.0];
+        animation.duration = 1.0;
+        animation.repeatCount = 1.0;
+        animation.calculationMode = kCAAnimationCubic;
+        [animate.layer addAnimation:animation forKey:nil];
+    }else{
+        [UIView animateWithDuration:0.32 animations:^{
+            animate.layer.transform = CATransform3DMakeRotation(M_PI, 0, 1, 0);
+        } completion:^(BOOL finished) {
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
+                    animate.layer.transform = CATransform3DMakeRotation(2*M_PI, 0, 1, 0);
+                } completion:nil];
+            });
+        }];
+    }
     
-//    animate = [self ]
 }
 
 

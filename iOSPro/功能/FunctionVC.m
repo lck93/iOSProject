@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationController.tabBarItem setBadgeValue:@"26"];
    
     
 
