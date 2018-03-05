@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MoreVC : UIViewController
+@interface MoreVC : LMJNavUIBaseViewController
 
 @end

@@ -28,8 +28,6 @@
     tabBarController.tabBarHeight = 49;
     self.window.rootViewController = tabBarController;
     
-    
- 
     [self.window makeKeyAndVisible];
    
    

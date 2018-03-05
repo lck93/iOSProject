@@ -30,6 +30,7 @@ static CGFloat const CYLTabBarControllerHeight = 44.f;
 #import "OtherVC.h"
 #import "MoreVC.h"
 #import "AddPlusBtn.h"
+#import "LMJNavigationController.h"
 
 @interface CYLTabBarControllerConfig ()<UITabBarControllerDelegate>
 
@@ -67,10 +68,10 @@ static CGFloat const CYLTabBarControllerHeight = 44.f;
 }
 
 - (NSArray *)viewControllers {
-    UINavigationController *first = [[UINavigationController alloc] initWithRootViewController:[[FunctionVC alloc] init]];
-    UINavigationController *second = [[UINavigationController alloc] initWithRootViewController:[[BaseVC alloc] init]];
-    UINavigationController *third = [[UINavigationController alloc] initWithRootViewController:[[OtherVC alloc] init]];
-    UINavigationController *firth = [[UINavigationController alloc] initWithRootViewController:[[MoreVC alloc] init]];
+    LMJNavigationController *first = [[LMJNavigationController alloc] initWithRootViewController:[[FunctionVC alloc] init]];
+    LMJNavigationController *second = [[LMJNavigationController alloc] initWithRootViewController:[[BaseVC alloc] init]];
+    LMJNavigationController *third = [[LMJNavigationController alloc] initWithRootViewController:[[OtherVC alloc] init]];
+    LMJNavigationController *firth = [[LMJNavigationController alloc] initWithRootViewController:[[MoreVC alloc] init]];
     //    UINavigationController *fifth = [[UINavigationController alloc] initWithRootViewController:[[ShareVC alloc] init]];
     
     

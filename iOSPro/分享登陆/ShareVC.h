@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShareVC : UIViewController
+@interface ShareVC : LMJNavUIBaseViewController
 
 @end

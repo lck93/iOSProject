@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseVC : UIViewController
+@interface BaseVC : LMJNavUIBaseViewController
 
 @end
