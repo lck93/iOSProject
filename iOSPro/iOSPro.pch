@@ -22,7 +22,7 @@
 #import "MBProgressHUD+LMJ.h"
 #import "UIView+GestureCallback.h"
 #import "UIColor+Random.h"
-#import "UIButton+LMJ.h"
+
 #import "UITextView+WZB.h"
 #import "UIViewController+DDPopUpViewController.h"
 #import "NSDecimalNumber+Addtion.h"
