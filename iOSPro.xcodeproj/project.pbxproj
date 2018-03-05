@@ -30,6 +30,11 @@
 		E29FBCF52045309E007A2170 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF42045309E007A2170 /* ShareVC.m */; };
 		E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF720464391007A2170 /* AddPlusBtn.m */; };
 		E29FBCFB2046805D007A2170 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */; };
+		E2D17DBD204CEB6B0026FED6 /* LMJNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */; };
+		E2D17DBE204CEB6B0026FED6 /* LMJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */; };
+		E2D17DC1204CEB7E0026FED6 /* LMJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */; };
+		E2D17DC5204CECA40026FED6 /* UIView+LMJNjHuFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DC3204CECA40026FED6 /* UIView+LMJNjHuFrame.m */; };
+		E2D17DC8204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DC7204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,17 @@
 		E29FBCF720464391007A2170 /* AddPlusBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPlusBtn.m; sourceTree = "<group>"; };
 		E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
 		E29FBCFA2046805D007A2170 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavUIBaseViewController.m; sourceTree = "<group>"; };
+		E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationController.m; sourceTree = "<group>"; };
+		E2D17DBB204CEB6B0026FED6 /* LMJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationController.h; sourceTree = "<group>"; };
+		E2D17DBC204CEB6B0026FED6 /* LMJNavUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavUIBaseViewController.h; sourceTree = "<group>"; };
+		E2D17DBF204CEB7E0026FED6 /* LMJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationBar.h; sourceTree = "<group>"; };
+		E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationBar.m; sourceTree = "<group>"; };
+		E2D17DC3204CECA40026FED6 /* UIView+LMJNjHuFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LMJNjHuFrame.m"; sourceTree = "<group>"; };
+		E2D17DC4204CECA40026FED6 /* UIView+LMJNjHuFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LMJNjHuFrame.h"; sourceTree = "<group>"; };
+		E2D17DC6204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		E2D17DC7204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		E2D17DC9204CF0330026FED6 /* iOSPro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSPro.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +163,8 @@
 		E29FBC942043AF9A007A2170 /* iOSPro */ = {
 			isa = PBXGroup;
 			children = (
+				E2D17DC2204CEC9F0026FED6 /* Category */,
+				E2D17DB8204CEB5B0026FED6 /* Base */,
 				E29FBCE620452E58007A2170 /* 分享登陆 */,
 				E29FBCE420452E58007A2170 /* 更多案例 */,
 				E29FBCE520452E58007A2170 /* 功能 */,
@@ -168,6 +186,7 @@
 				E29FBCE0204506A1007A2170 /* MainTabbarController.m */,
 				E29FBCF620464391007A2170 /* AddPlusBtn.h */,
 				E29FBCF720464391007A2170 /* AddPlusBtn.m */,
+				E2D17DC9204CF0330026FED6 /* iOSPro.pch */,
 			);
 			path = iOSPro;
 			sourceTree = "<group>";
@@ -263,6 +282,30 @@
 				E29FBCF42045309E007A2170 /* ShareVC.m */,
 			);
 			path = "分享登陆";
+			sourceTree = "<group>";
+		};
+		E2D17DB8204CEB5B0026FED6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17DBF204CEB7E0026FED6 /* LMJNavigationBar.h */,
+				E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */,
+				E2D17DBB204CEB6B0026FED6 /* LMJNavigationController.h */,
+				E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */,
+				E2D17DBC204CEB6B0026FED6 /* LMJNavUIBaseViewController.h */,
+				E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E2D17DC2204CEC9F0026FED6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17DC6204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.h */,
+				E2D17DC7204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */,
+				E2D17DC4204CECA40026FED6 /* UIView+LMJNjHuFrame.h */,
+				E2D17DC3204CECA40026FED6 /* UIView+LMJNjHuFrame.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,19 +446,24 @@
 				E29FBCDC2043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
 				E29FBC9A2043AF9A007A2170 /* ViewController.m in Sources */,
 				E29FBCA52043AF9A007A2170 /* main.m in Sources */,
+				E2D17DBD204CEB6B0026FED6 /* LMJNavUIBaseViewController.m in Sources */,
 				E29FBCF220453091007A2170 /* MoreVC.m in Sources */,
 				E29FBCEC20453075007A2170 /* BaseVC.m in Sources */,
 				E29FBCDA2043B0D8007A2170 /* CYLTabBarController.m in Sources */,
 				E29FBCEF20453083007A2170 /* OtherVC.m in Sources */,
 				E29FBCDE2043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				E2D17DC1204CEB7E0026FED6 /* LMJNavigationBar.m in Sources */,
 				E29FBCDB2043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				E29FBCDD2043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				E29FBCD82043B0D8007A2170 /* CYLPlusButton.m in Sources */,
+				E2D17DC8204CEE7B0026FED6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				E29FBCD92043B0D8007A2170 /* CYLTabBar.m in Sources */,
+				E2D17DBE204CEB6B0026FED6 /* LMJNavigationController.m in Sources */,
 				E29FBCE1204506A1007A2170 /* MainTabbarController.m in Sources */,
 				E29FBCE920452ECC007A2170 /* FunctionVC.m in Sources */,
 				E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */,
 				E29FBC972043AF9A007A2170 /* AppDelegate.m in Sources */,
+				E2D17DC5204CECA40026FED6 /* UIView+LMJNjHuFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +628,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UKQ4QKY2W4;
+				GCC_PREFIX_HEADER = iOSPro/iOSPro.pch;
 				INFOPLIST_FILE = iOSPro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -595,6 +644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UKQ4QKY2W4;
+				GCC_PREFIX_HEADER = iOSPro/iOSPro.pch;
 				INFOPLIST_FILE = iOSPro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
