@@ -33,7 +33,7 @@ pod 'UMengAnalytics'
 # pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
 
 
-
+pod 'IQKeyboardManager', '~> 5.0.6'
 # 表情键盘
 
 # 正则匹配点击

@@ -895,6 +895,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iOSPro/Pods-iOSPro-resources.sh",
 				"${PODS_ROOT}/HMQRCodeScanner/HMQRCodeScanner/QRCode/HMScanner.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";

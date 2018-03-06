@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2900AA44A099A9A1AA09E770A837E58D'
+               BlueprintIdentifier = 'DBC85FB4A0F12652BCFED04E721380FD'
                BlueprintName = 'TDTouchID'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTDTouchID.a'>
