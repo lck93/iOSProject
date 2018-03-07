@@ -30,12 +30,6 @@
 		E29FBCF52045309E007A2170 /* ShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF42045309E007A2170 /* ShareVC.m */; };
 		E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF720464391007A2170 /* AddPlusBtn.m */; };
 		E29FBCFB2046805D007A2170 /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */; };
-		E2D17DBD204CEB6B0026FED6 /* LMJNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */; };
-		E2D17DBE204CEB6B0026FED6 /* LMJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */; };
-		E2D17DC1204CEB7E0026FED6 /* LMJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */; };
-		E2D17DD0204D24900026FED6 /* LMJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DCA204D248F0026FED6 /* LMJTextViewController.m */; };
-		E2D17DD1204D24900026FED6 /* LMJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DCC204D24900026FED6 /* LMJBaseViewController.m */; };
-		E2D17DD2204D24900026FED6 /* LMJRequestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17DCF204D24900026FED6 /* LMJRequestBaseViewController.m */; };
 		E2D17E74204D26D30026FED6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E2D17E70204D26D30026FED6 /* LICENSE */; };
 		E2D17E75204D26D30026FED6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17E72204D26D30026FED6 /* MBProgressHUD.m */; };
 		E2D17E76204D26D30026FED6 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = E2D17E73204D26D30026FED6 /* README.mdown */; };
@@ -49,6 +43,27 @@
 		E2D17E91204D27310026FED6 /* UIViewController+DDPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17E87204D27300026FED6 /* UIViewController+DDPopUpViewController.m */; };
 		E2D17E97204FD16F0026FED6 /* LMJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17E95204FD16E0026FED6 /* LMJAppDelegate.m */; };
 		E2D17E9A204FD18D0026FED6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17E99204FD18D0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		E2D17EC9204FE2E30026FED6 /* LMJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17E9E204FE2E30026FED6 /* LMJBaseViewController.m */; };
+		E2D17ECA204FE2E30026FED6 /* LMJCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EA0204FE2E30026FED6 /* LMJCollectionViewController.m */; };
+		E2D17ECB204FE2E30026FED6 /* LMJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EA2204FE2E30026FED6 /* LMJNavigationController.m */; };
+		E2D17ECC204FE2E30026FED6 /* LMJNavUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EA4204FE2E30026FED6 /* LMJNavUIBaseViewController.m */; };
+		E2D17ECD204FE2E30026FED6 /* LMJRefreshCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EA6204FE2E30026FED6 /* LMJRefreshCollectionViewController.m */; };
+		E2D17ECE204FE2E30026FED6 /* LMJRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EA8204FE2E30026FED6 /* LMJRefreshTableViewController.m */; };
+		E2D17ECF204FE2E30026FED6 /* LMJRequestBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EAA204FE2E30026FED6 /* LMJRequestBaseViewController.m */; };
+		E2D17ED0204FE2E30026FED6 /* LMJStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EAC204FE2E30026FED6 /* LMJStaticTableViewController.m */; };
+		E2D17ED1204FE2E30026FED6 /* LMJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EAE204FE2E30026FED6 /* LMJTableViewController.m */; };
+		E2D17ED2204FE2E30026FED6 /* LMJTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EB0204FE2E30026FED6 /* LMJTextViewController.m */; };
+		E2D17ED3204FE2E30026FED6 /* LMJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EB2204FE2E30026FED6 /* LMJWebViewController.m */; };
+		E2D17ED4204FE2E30026FED6 /* LMJItemSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EB5204FE2E30026FED6 /* LMJItemSection.m */; };
+		E2D17ED5204FE2E30026FED6 /* LMJWordArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EB7204FE2E30026FED6 /* LMJWordArrowItem.m */; };
+		E2D17ED6204FE2E30026FED6 /* LMJWordItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EB9204FE2E30026FED6 /* LMJWordItem.m */; };
+		E2D17ED7204FE2E30026FED6 /* LMJAutoRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EBC204FE2E30026FED6 /* LMJAutoRefreshFooter.m */; };
+		E2D17ED8204FE2E30026FED6 /* LMJElementsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EBE204FE2E30026FED6 /* LMJElementsFlowLayout.m */; };
+		E2D17ED9204FE2E30026FED6 /* LMJHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC0204FE2E30026FED6 /* LMJHorizontalFlowLayout.m */; };
+		E2D17EDA204FE2E30026FED6 /* LMJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC2204FE2E30026FED6 /* LMJNavigationBar.m */; };
+		E2D17EDB204FE2E30026FED6 /* LMJNormalRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC4204FE2E30026FED6 /* LMJNormalRefreshHeader.m */; };
+		E2D17EDC204FE2E30026FED6 /* LMJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC6204FE2E30026FED6 /* LMJSettingCell.m */; };
+		E2D17EDD204FE2E30026FED6 /* LMJVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC8204FE2E30026FED6 /* LMJVerticalFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,19 +132,7 @@
 		E29FBCF720464391007A2170 /* AddPlusBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddPlusBtn.m; sourceTree = "<group>"; };
 		E29FBCF92046805D007A2170 /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
 		E29FBCFA2046805D007A2170 /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
-		E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavUIBaseViewController.m; sourceTree = "<group>"; };
-		E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationController.m; sourceTree = "<group>"; };
-		E2D17DBB204CEB6B0026FED6 /* LMJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationController.h; sourceTree = "<group>"; };
-		E2D17DBC204CEB6B0026FED6 /* LMJNavUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavUIBaseViewController.h; sourceTree = "<group>"; };
-		E2D17DBF204CEB7E0026FED6 /* LMJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationBar.h; sourceTree = "<group>"; };
-		E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationBar.m; sourceTree = "<group>"; };
 		E2D17DC9204CF0330026FED6 /* iOSPro.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSPro.pch; sourceTree = "<group>"; };
-		E2D17DCA204D248F0026FED6 /* LMJTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTextViewController.m; sourceTree = "<group>"; };
-		E2D17DCB204D248F0026FED6 /* LMJRequestBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestBaseViewController.h; sourceTree = "<group>"; };
-		E2D17DCC204D24900026FED6 /* LMJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseViewController.m; sourceTree = "<group>"; };
-		E2D17DCD204D24900026FED6 /* LMJTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTextViewController.h; sourceTree = "<group>"; };
-		E2D17DCE204D24900026FED6 /* LMJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseViewController.h; sourceTree = "<group>"; };
-		E2D17DCF204D24900026FED6 /* LMJRequestBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestBaseViewController.m; sourceTree = "<group>"; };
 		E2D17E70204D26D30026FED6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E2D17E71204D26D30026FED6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E2D17E72204D26D30026FED6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
@@ -153,6 +156,48 @@
 		E2D17E96204FD16F0026FED6 /* LMJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAppDelegate.h; sourceTree = "<group>"; };
 		E2D17E98204FD18C0026FED6 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		E2D17E99204FD18D0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		E2D17E9D204FE2E30026FED6 /* LMJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseViewController.h; sourceTree = "<group>"; };
+		E2D17E9E204FE2E30026FED6 /* LMJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseViewController.m; sourceTree = "<group>"; };
+		E2D17E9F204FE2E30026FED6 /* LMJCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJCollectionViewController.h; sourceTree = "<group>"; };
+		E2D17EA0204FE2E30026FED6 /* LMJCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJCollectionViewController.m; sourceTree = "<group>"; };
+		E2D17EA1204FE2E30026FED6 /* LMJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationController.h; sourceTree = "<group>"; };
+		E2D17EA2204FE2E30026FED6 /* LMJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationController.m; sourceTree = "<group>"; };
+		E2D17EA3204FE2E30026FED6 /* LMJNavUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavUIBaseViewController.h; sourceTree = "<group>"; };
+		E2D17EA4204FE2E30026FED6 /* LMJNavUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavUIBaseViewController.m; sourceTree = "<group>"; };
+		E2D17EA5204FE2E30026FED6 /* LMJRefreshCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRefreshCollectionViewController.h; sourceTree = "<group>"; };
+		E2D17EA6204FE2E30026FED6 /* LMJRefreshCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRefreshCollectionViewController.m; sourceTree = "<group>"; };
+		E2D17EA7204FE2E30026FED6 /* LMJRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRefreshTableViewController.h; sourceTree = "<group>"; };
+		E2D17EA8204FE2E30026FED6 /* LMJRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRefreshTableViewController.m; sourceTree = "<group>"; };
+		E2D17EA9204FE2E30026FED6 /* LMJRequestBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestBaseViewController.h; sourceTree = "<group>"; };
+		E2D17EAA204FE2E30026FED6 /* LMJRequestBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestBaseViewController.m; sourceTree = "<group>"; };
+		E2D17EAB204FE2E30026FED6 /* LMJStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJStaticTableViewController.h; sourceTree = "<group>"; };
+		E2D17EAC204FE2E30026FED6 /* LMJStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJStaticTableViewController.m; sourceTree = "<group>"; };
+		E2D17EAD204FE2E30026FED6 /* LMJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTableViewController.h; sourceTree = "<group>"; };
+		E2D17EAE204FE2E30026FED6 /* LMJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTableViewController.m; sourceTree = "<group>"; };
+		E2D17EAF204FE2E30026FED6 /* LMJTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJTextViewController.h; sourceTree = "<group>"; };
+		E2D17EB0204FE2E30026FED6 /* LMJTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJTextViewController.m; sourceTree = "<group>"; };
+		E2D17EB1204FE2E30026FED6 /* LMJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWebViewController.h; sourceTree = "<group>"; };
+		E2D17EB2204FE2E30026FED6 /* LMJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWebViewController.m; sourceTree = "<group>"; };
+		E2D17EB4204FE2E30026FED6 /* LMJItemSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJItemSection.h; sourceTree = "<group>"; };
+		E2D17EB5204FE2E30026FED6 /* LMJItemSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJItemSection.m; sourceTree = "<group>"; };
+		E2D17EB6204FE2E30026FED6 /* LMJWordArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWordArrowItem.h; sourceTree = "<group>"; };
+		E2D17EB7204FE2E30026FED6 /* LMJWordArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWordArrowItem.m; sourceTree = "<group>"; };
+		E2D17EB8204FE2E30026FED6 /* LMJWordItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJWordItem.h; sourceTree = "<group>"; };
+		E2D17EB9204FE2E30026FED6 /* LMJWordItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJWordItem.m; sourceTree = "<group>"; };
+		E2D17EBB204FE2E30026FED6 /* LMJAutoRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAutoRefreshFooter.h; sourceTree = "<group>"; };
+		E2D17EBC204FE2E30026FED6 /* LMJAutoRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJAutoRefreshFooter.m; sourceTree = "<group>"; };
+		E2D17EBD204FE2E30026FED6 /* LMJElementsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJElementsFlowLayout.h; sourceTree = "<group>"; };
+		E2D17EBE204FE2E30026FED6 /* LMJElementsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJElementsFlowLayout.m; sourceTree = "<group>"; };
+		E2D17EBF204FE2E30026FED6 /* LMJHorizontalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		E2D17EC0204FE2E30026FED6 /* LMJHorizontalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJHorizontalFlowLayout.m; sourceTree = "<group>"; };
+		E2D17EC1204FE2E30026FED6 /* LMJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationBar.h; sourceTree = "<group>"; };
+		E2D17EC2204FE2E30026FED6 /* LMJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNavigationBar.m; sourceTree = "<group>"; };
+		E2D17EC3204FE2E30026FED6 /* LMJNormalRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNormalRefreshHeader.h; sourceTree = "<group>"; };
+		E2D17EC4204FE2E30026FED6 /* LMJNormalRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJNormalRefreshHeader.m; sourceTree = "<group>"; };
+		E2D17EC5204FE2E30026FED6 /* LMJSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJSettingCell.h; sourceTree = "<group>"; };
+		E2D17EC6204FE2E30026FED6 /* LMJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJSettingCell.m; sourceTree = "<group>"; };
+		E2D17EC7204FE2E30026FED6 /* LMJVerticalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJVerticalFlowLayout.h; sourceTree = "<group>"; };
+		E2D17EC8204FE2E30026FED6 /* LMJVerticalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJVerticalFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,10 +268,10 @@
 		E29FBC942043AF9A007A2170 /* iOSPro */ = {
 			isa = PBXGroup;
 			children = (
+				E2D17E9B204FE2E30026FED6 /* LMJBase */,
 				E2D17E96204FD16F0026FED6 /* LMJAppDelegate.h */,
 				E2D17E95204FD16E0026FED6 /* LMJAppDelegate.m */,
 				E2D17DC2204CEC9F0026FED6 /* Category */,
-				E2D17DB8204CEB5B0026FED6 /* Base */,
 				E29FBCE620452E58007A2170 /* 分享登陆 */,
 				E29FBCE420452E58007A2170 /* 更多案例 */,
 				E29FBCE520452E58007A2170 /* 功能 */,
@@ -345,25 +390,6 @@
 			path = "分享登陆";
 			sourceTree = "<group>";
 		};
-		E2D17DB8204CEB5B0026FED6 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				E2D17DCE204D24900026FED6 /* LMJBaseViewController.h */,
-				E2D17DCC204D24900026FED6 /* LMJBaseViewController.m */,
-				E2D17DCB204D248F0026FED6 /* LMJRequestBaseViewController.h */,
-				E2D17DCF204D24900026FED6 /* LMJRequestBaseViewController.m */,
-				E2D17DCD204D24900026FED6 /* LMJTextViewController.h */,
-				E2D17DCA204D248F0026FED6 /* LMJTextViewController.m */,
-				E2D17DBF204CEB7E0026FED6 /* LMJNavigationBar.h */,
-				E2D17DC0204CEB7E0026FED6 /* LMJNavigationBar.m */,
-				E2D17DBB204CEB6B0026FED6 /* LMJNavigationController.h */,
-				E2D17DBA204CEB6B0026FED6 /* LMJNavigationController.m */,
-				E2D17DBC204CEB6B0026FED6 /* LMJNavUIBaseViewController.h */,
-				E2D17DB9204CEB6B0026FED6 /* LMJNavUIBaseViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		E2D17DC2204CEC9F0026FED6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +431,79 @@
 				E2D17E87204D27300026FED6 /* UIViewController+DDPopUpViewController.m */,
 			);
 			path = ThirdCategory;
+			sourceTree = "<group>";
+		};
+		E2D17E9B204FE2E30026FED6 /* LMJBase */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17E9C204FE2E30026FED6 /* BaseControllers */,
+				E2D17EB3204FE2E30026FED6 /* BaseModels */,
+				E2D17EBA204FE2E30026FED6 /* BaseView */,
+			);
+			path = LMJBase;
+			sourceTree = "<group>";
+		};
+		E2D17E9C204FE2E30026FED6 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17E9D204FE2E30026FED6 /* LMJBaseViewController.h */,
+				E2D17E9E204FE2E30026FED6 /* LMJBaseViewController.m */,
+				E2D17E9F204FE2E30026FED6 /* LMJCollectionViewController.h */,
+				E2D17EA0204FE2E30026FED6 /* LMJCollectionViewController.m */,
+				E2D17EA1204FE2E30026FED6 /* LMJNavigationController.h */,
+				E2D17EA2204FE2E30026FED6 /* LMJNavigationController.m */,
+				E2D17EA3204FE2E30026FED6 /* LMJNavUIBaseViewController.h */,
+				E2D17EA4204FE2E30026FED6 /* LMJNavUIBaseViewController.m */,
+				E2D17EA5204FE2E30026FED6 /* LMJRefreshCollectionViewController.h */,
+				E2D17EA6204FE2E30026FED6 /* LMJRefreshCollectionViewController.m */,
+				E2D17EA7204FE2E30026FED6 /* LMJRefreshTableViewController.h */,
+				E2D17EA8204FE2E30026FED6 /* LMJRefreshTableViewController.m */,
+				E2D17EA9204FE2E30026FED6 /* LMJRequestBaseViewController.h */,
+				E2D17EAA204FE2E30026FED6 /* LMJRequestBaseViewController.m */,
+				E2D17EAB204FE2E30026FED6 /* LMJStaticTableViewController.h */,
+				E2D17EAC204FE2E30026FED6 /* LMJStaticTableViewController.m */,
+				E2D17EAD204FE2E30026FED6 /* LMJTableViewController.h */,
+				E2D17EAE204FE2E30026FED6 /* LMJTableViewController.m */,
+				E2D17EAF204FE2E30026FED6 /* LMJTextViewController.h */,
+				E2D17EB0204FE2E30026FED6 /* LMJTextViewController.m */,
+				E2D17EB1204FE2E30026FED6 /* LMJWebViewController.h */,
+				E2D17EB2204FE2E30026FED6 /* LMJWebViewController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		E2D17EB3204FE2E30026FED6 /* BaseModels */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17EB4204FE2E30026FED6 /* LMJItemSection.h */,
+				E2D17EB5204FE2E30026FED6 /* LMJItemSection.m */,
+				E2D17EB6204FE2E30026FED6 /* LMJWordArrowItem.h */,
+				E2D17EB7204FE2E30026FED6 /* LMJWordArrowItem.m */,
+				E2D17EB8204FE2E30026FED6 /* LMJWordItem.h */,
+				E2D17EB9204FE2E30026FED6 /* LMJWordItem.m */,
+			);
+			path = BaseModels;
+			sourceTree = "<group>";
+		};
+		E2D17EBA204FE2E30026FED6 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				E2D17EBB204FE2E30026FED6 /* LMJAutoRefreshFooter.h */,
+				E2D17EBC204FE2E30026FED6 /* LMJAutoRefreshFooter.m */,
+				E2D17EBD204FE2E30026FED6 /* LMJElementsFlowLayout.h */,
+				E2D17EBE204FE2E30026FED6 /* LMJElementsFlowLayout.m */,
+				E2D17EBF204FE2E30026FED6 /* LMJHorizontalFlowLayout.h */,
+				E2D17EC0204FE2E30026FED6 /* LMJHorizontalFlowLayout.m */,
+				E2D17EC1204FE2E30026FED6 /* LMJNavigationBar.h */,
+				E2D17EC2204FE2E30026FED6 /* LMJNavigationBar.m */,
+				E2D17EC3204FE2E30026FED6 /* LMJNormalRefreshHeader.h */,
+				E2D17EC4204FE2E30026FED6 /* LMJNormalRefreshHeader.m */,
+				E2D17EC5204FE2E30026FED6 /* LMJSettingCell.h */,
+				E2D17EC6204FE2E30026FED6 /* LMJSettingCell.m */,
+				E2D17EC7204FE2E30026FED6 /* LMJVerticalFlowLayout.h */,
+				E2D17EC8204FE2E30026FED6 /* LMJVerticalFlowLayout.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -601,38 +700,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D17ED5204FE2E30026FED6 /* LMJWordArrowItem.m in Sources */,
+				E2D17EDD204FE2E30026FED6 /* LMJVerticalFlowLayout.m in Sources */,
+				E2D17ECF204FE2E30026FED6 /* LMJRequestBaseViewController.m in Sources */,
 				E2D17E9A204FD18D0026FED6 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				E2D17E89204D27310026FED6 /* MBProgressHUD+LMJ.m in Sources */,
-				E2D17DD1204D24900026FED6 /* LMJBaseViewController.m in Sources */,
 				E29FBCFB2046805D007A2170 /* CYLTabBarControllerConfig.m in Sources */,
+				E2D17ED8204FE2E30026FED6 /* LMJElementsFlowLayout.m in Sources */,
 				E29FBCF52045309E007A2170 /* ShareVC.m in Sources */,
+				E2D17ECC204FE2E30026FED6 /* LMJNavUIBaseViewController.m in Sources */,
+				E2D17EDB204FE2E30026FED6 /* LMJNormalRefreshHeader.m in Sources */,
+				E2D17EC9204FE2E30026FED6 /* LMJBaseViewController.m in Sources */,
 				E29FBCDC2043B0D8007A2170 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				E2D17EDC204FE2E30026FED6 /* LMJSettingCell.m in Sources */,
 				E2D17E8F204D27310026FED6 /* UITextView+WZB.m in Sources */,
 				E29FBC9A2043AF9A007A2170 /* ViewController.m in Sources */,
 				E29FBCA52043AF9A007A2170 /* main.m in Sources */,
-				E2D17DBD204CEB6B0026FED6 /* LMJNavUIBaseViewController.m in Sources */,
+				E2D17ECD204FE2E30026FED6 /* LMJRefreshCollectionViewController.m in Sources */,
 				E29FBCF220453091007A2170 /* MoreVC.m in Sources */,
 				E29FBCEC20453075007A2170 /* BaseVC.m in Sources */,
 				E29FBCDA2043B0D8007A2170 /* CYLTabBarController.m in Sources */,
-				E2D17DD0204D24900026FED6 /* LMJTextViewController.m in Sources */,
+				E2D17ED0204FE2E30026FED6 /* LMJStaticTableViewController.m in Sources */,
+				E2D17ECA204FE2E30026FED6 /* LMJCollectionViewController.m in Sources */,
 				E29FBCEF20453083007A2170 /* OtherVC.m in Sources */,
+				E2D17ECE204FE2E30026FED6 /* LMJRefreshTableViewController.m in Sources */,
 				E29FBCDE2043B0D8007A2170 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				E2D17ED1204FE2E30026FED6 /* LMJTableViewController.m in Sources */,
+				E2D17ED9204FE2E30026FED6 /* LMJHorizontalFlowLayout.m in Sources */,
 				E2D17E8E204D27310026FED6 /* NullSafe.m in Sources */,
 				E2D17E75204D26D30026FED6 /* MBProgressHUD.m in Sources */,
-				E2D17DC1204CEB7E0026FED6 /* LMJNavigationBar.m in Sources */,
+				E2D17ECB204FE2E30026FED6 /* LMJNavigationController.m in Sources */,
 				E29FBCDB2043B0D8007A2170 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				E2D17E8C204D27310026FED6 /* UIColor+Random.m in Sources */,
+				E2D17EDA204FE2E30026FED6 /* LMJNavigationBar.m in Sources */,
 				E29FBCDD2043B0D8007A2170 /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				E2D17E8D204D27310026FED6 /* NSDecimalNumber+Addtion.m in Sources */,
 				E29FBCD82043B0D8007A2170 /* CYLPlusButton.m in Sources */,
+				E2D17ED7204FE2E30026FED6 /* LMJAutoRefreshFooter.m in Sources */,
 				E29FBCD92043B0D8007A2170 /* CYLTabBar.m in Sources */,
-				E2D17DD2204D24900026FED6 /* LMJRequestBaseViewController.m in Sources */,
-				E2D17DBE204CEB6B0026FED6 /* LMJNavigationController.m in Sources */,
 				E2D17E90204D27310026FED6 /* UIView+GestureCallback.m in Sources */,
+				E2D17ED6204FE2E30026FED6 /* LMJWordItem.m in Sources */,
 				E29FBCE1204506A1007A2170 /* MainTabbarController.m in Sources */,
 				E2D17E8A204D27310026FED6 /* UIView+LMJNjHuFrame.m in Sources */,
+				E2D17ED3204FE2E30026FED6 /* LMJWebViewController.m in Sources */,
+				E2D17ED4204FE2E30026FED6 /* LMJItemSection.m in Sources */,
 				E29FBCE920452ECC007A2170 /* FunctionVC.m in Sources */,
 				E2D17E91204D27310026FED6 /* UIViewController+DDPopUpViewController.m in Sources */,
+				E2D17ED2204FE2E30026FED6 /* LMJTextViewController.m in Sources */,
 				E29FBCF820464391007A2170 /* AddPlusBtn.m in Sources */,
 				E2D17E97204FD16F0026FED6 /* LMJAppDelegate.m in Sources */,
 			);
