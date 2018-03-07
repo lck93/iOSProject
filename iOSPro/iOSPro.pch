@@ -16,6 +16,7 @@
 #import "IQKeyboardManager.h"
 #import "YYCategories.h"
 #import "MBProgressHUD.h"
+#import "LMJBaseViewController.h"
 
 
 #import "UIView+LMJNjHuFrame.h"
