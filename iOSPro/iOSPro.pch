@@ -13,6 +13,7 @@
 #import "UIView+LMJNjHuFrame.h"
 #import "LMJNavUIBaseViewController.h"
 #import "LMJBaseViewController.h"
+#import "LMJStaticTableViewController.h"
 #import "IQKeyboardManager.h"
 #import "YYCategories.h"
 #import "MBProgressHUD.h"
