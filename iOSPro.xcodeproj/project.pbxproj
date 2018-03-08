@@ -64,6 +64,7 @@
 		E2D17EDB204FE2E30026FED6 /* LMJNormalRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC4204FE2E30026FED6 /* LMJNormalRefreshHeader.m */; };
 		E2D17EDC204FE2E30026FED6 /* LMJSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC6204FE2E30026FED6 /* LMJSettingCell.m */; };
 		E2D17EDD204FE2E30026FED6 /* LMJVerticalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EC8204FE2E30026FED6 /* LMJVerticalFlowLayout.m */; };
+		E2D17EE620513B0C0026FED6 /* UIButton+LMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D17EE520513B0B0026FED6 /* UIButton+LMJ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +199,8 @@
 		E2D17EC6204FE2E30026FED6 /* LMJSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJSettingCell.m; sourceTree = "<group>"; };
 		E2D17EC7204FE2E30026FED6 /* LMJVerticalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJVerticalFlowLayout.h; sourceTree = "<group>"; };
 		E2D17EC8204FE2E30026FED6 /* LMJVerticalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJVerticalFlowLayout.m; sourceTree = "<group>"; };
+		E2D17EE420513B0B0026FED6 /* UIButton+LMJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LMJ.h"; sourceTree = "<group>"; };
+		E2D17EE520513B0B0026FED6 /* UIButton+LMJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LMJ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -393,6 +396,8 @@
 		E2D17DC2204CEC9F0026FED6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E2D17EE420513B0B0026FED6 /* UIButton+LMJ.h */,
+				E2D17EE520513B0B0026FED6 /* UIButton+LMJ.m */,
 				E2D17E98204FD18C0026FED6 /* UINavigationController+FDFullscreenPopGesture.h */,
 				E2D17E99204FD18D0026FED6 /* UINavigationController+FDFullscreenPopGesture.m */,
 				E2D17E88204D27300026FED6 /* MBProgressHUD+LMJ.h */,
@@ -715,6 +720,7 @@
 				E2D17EDC204FE2E30026FED6 /* LMJSettingCell.m in Sources */,
 				E2D17E8F204D27310026FED6 /* UITextView+WZB.m in Sources */,
 				E29FBC9A2043AF9A007A2170 /* ViewController.m in Sources */,
+				E2D17EE620513B0C0026FED6 /* UIButton+LMJ.m in Sources */,
 				E29FBCA52043AF9A007A2170 /* main.m in Sources */,
 				E2D17ECD204FE2E30026FED6 /* LMJRefreshCollectionViewController.m in Sources */,
 				E29FBCF220453091007A2170 /* MoreVC.m in Sources */,
